@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Monster</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <h3>Hungry Monster</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav navbar-items" style="margin-left: auto;">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="#">Recipes</a>
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <div class="meal-search-box">
+                    <input type="text" name="" class="search-control"
+                    placeholder="Type an ingredient name like onion egg..." id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">Results Found:</h2>
+                <div id="meal">
+                    
+                </div>
+            </div>
+
+            <div class="meal-details">
+                <!------------- recipe cross button ---------------->
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                    <i class="fa fa-close"></i>
+                </button>
+
+
+                <!--------------- meal-items ----------->
+                <div class="meal-details-content">
+                    
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
